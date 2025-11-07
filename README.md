@@ -85,8 +85,8 @@ Além do LED e Buzzer, o sistema utiliza o *access point* da própria placa BitD
 ## ✅ Conclusão
 O projeto demonstrou a **viabilidade do uso de FPGAs** em sistemas de detecção de incêndio, provando um funcionamento estável e uma **resposta imediata** (baixa latência) às variações ambientais A implementação da lógica em hardware reconfigurável atende ao requisito de processamento paralelo e confiável, validando o potencial desta arquitetura para missões críticas de segurança.
 
-[cite_start]A resposta do sistema (acionamento do alerta dual e interface HTML) foi validada com sucesso em testes controlados[cite: 117].
+A resposta do sistema (acionamento do alerta dual e interface HTML) foi validada com sucesso em testes controlados.
 
 ---
 
-Gostaria de obter mais detalhes sobre a **lógica de decisão (Módulo de Lógica de Decisão)** implementada em System Verilog?
+
