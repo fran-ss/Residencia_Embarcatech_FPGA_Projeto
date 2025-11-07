@@ -1,0 +1,21 @@
+LOCATE COMP "i_clk" SITE "B16";
+IOBUF PORT "i_clk" IO_TYPE=LVCMOS33;
+FREQUENCY PORT "i_clk" 25.0 MHz;
+
+LOCATE COMP "o_led_placa" SITE "L2";
+IOBUF PORT "o_led_placa" IO_TYPE=LVCMOS33;
+
+LOCATE COMP "o_led_externo" SITE "C2";
+IOBUF PORT "o_led_externo" IO_TYPE=LVCMOS33;
+
+LOCATE COMP "i_gas_alert" SITE "D1";
+IOBUF PORT "i_gas_alert" IO_TYPE=LVCMOS33;
+
+LOCATE COMP "io_dht_data" SITE "E2";
+IOBUF PORT "io_dht_data" IO_TYPE=LVCMOS33;
+
+LOCATE COMP "o_tx" SITE "T18";
+IOBUF PORT "o_tx" IO_TYPE=LVCMOS33;
+
+LOCATE COMP "o_buzzer_alert" SITE "F20";
+IOBUF PORT "o_buzzer_alert" IO_TYPE=LVCMOS33;
